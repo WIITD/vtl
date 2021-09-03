@@ -4,7 +4,9 @@ simple terminal based launcher for apps
 tested on linux and windows
 
 # config
-app can be configured through json files  
+app can be configured through json files placed in:  
+linux: ~/.config/vtl/  
+windows: \\%appdata%\\vtl\\  
 
 example:  
 ```
@@ -19,7 +21,7 @@ example:
 ```
 important: on window please use "\\\" while declaring the path otherwise app will crash  
 
-app, upon launching, will display list of files json files from '~/.config/vtl/', or    
+app, upon launching, will display list of json files from config directory, or    
 simply drag and drop json file on executable or pass it as an argument  
 
 # building 
